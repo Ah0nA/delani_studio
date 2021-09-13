@@ -1,0 +1,181 @@
+/* h1 { 
+  position: absolute; 
+  top: 300px; 
+  left: 0; 
+  width: 100%; 
+}
+h6{
+  width: 100%; 
+  top: 600px; 
+  left: 0; 
+  position: absolute; 
+
+}
+.start{
+color: white;
+}
+.start h1,p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image{
+  height: auto;
+  top: 0;
+  bottom: 0;
+  position: relative;
+}
+.shoe{
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+.aboutus{
+  padding-top: 20px;
+  height: 40vh;
+}
+.aboutus >p{
+  font-weight: 600;
+  font-size: large;
+}
+.second{
+  background:url("./images/s_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width : 100%;
+  color: white;
+  height: 60vh;
+  position: relative;
+  left: 0;
+  top: 100%;
+}
+.second >p{
+ font-size: 8vw;
+ font-weight: 700;
+ font-size: large;
+ color: white;
+}
+.number{
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  }
+
+* What we do */
+.what-we-do:hover {
+  color:black;
+  background:rgba(248, 247, 246, 0.979);
+  padding-top: 7vh;
+  height: 50vh;
+}
+
+.portfolio:hover {
+  font-family: cursive;
+  font-size: 25px;
+  color: rgb(70, 248, 239);
+  padding: 1rem;
+}
+
+.portfolio1 {
+  padding-top: 9vh;
+}
+
+.port-pro {
+
+  left: 48%;
+  transform: translate(-50%, -80%);
+  display: none;
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+  top: 58%;
+}
+.img1:hover {
+  opacity: 0.3;
+}
+.port-pro:hover {
+  opacity: 1;
+}
+
+/* start form styling */
+.myhead {
+  margin-top: 4vh;
+}
+#name,
+#email,
+#textarea {
+background-color: transparent;
+}
+.cont-sec {
+  height: 90vh;
+  width: 100%;
+}
+.cont-form {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.submitme {
+  margin-bottom: 17vh;
+}
+
+/* portfolio section */
+.port1 {
+  padding-bottom: 5vh;
+}
+.find-me {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+.cont-form > h3 {
+  text-transform: uppercase;
+  padding-top: 2vh;
+}
+.submitme {
+  margin-top: 1rem;
+  margin-left: 50%;
+}
+
+/* contact us section */
+.find-me {
+  padding-top: 10vh;
+}
+.find-me > h3 {
+  color: white;
+}
+.logo{
+  font-size: medium;
+  font-weight: 600;
+  font-style: oblique;
+}
+.footer-sec:hover {
+  padding-top: 3vh;
+  height: 10vh;
+}
+
+/* keyframes */
+#anim{
+  animation: pulse 5s infinite;
+  padding-top: 2vh;
+  animation-duration: 2s;
+  animation-name: mymouse;
+}
+@keyframes mymouse {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+ */
