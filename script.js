@@ -18,15 +18,15 @@ $(document).ready(function () {
 });
 //hover for on the portfolio section
 $(document).ready(function () {
-  $(".myportfolio").hover(
+  $(".portfolio8").hover(
       function () {
           $(this)
-              .find(".myproject")
+              .find(".ultron")
               .show();
       },
       function () {
           $(this)
-              .find(".myproject")
+              .find(".ultron")
               .hide();
       }
   );
