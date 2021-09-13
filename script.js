@@ -1,22 +1,22 @@
 // jquery for image toggle
 $(document).ready(function () {
   $("#cool").hide();
-  $("#whatText2").hide();
-  $("#whatText3").hide();
-  $(".imgtoggle01, .imgtoggle1").click(function () {
-      $("#whatText").toggle();
+  $("#cool2").hide();
+  $("#cool3").hide();
+  $(".imgtoggle01, .imgtoggle01").click(function () {
+      $("#cool").toggle();
       $(".imgtoggle01").toggle();
   });
   $(".imgtoggle02, .imgtoggle2").click(function () {
-      $("#whatText2").toggle();
+      $("#cool2").toggle();
       $(".imgtoggle02").toggle();
   });
   $(".imgtoggle03, .imgtoggle3").click(function () {
-      $("#whatText3").toggle();
+      $("#cool3").toggle();
       $(".imgtoggle03").toggle();
   });
 });
-//hover effect on the portfolio section
+//hover for on the portfolio section
 $(document).ready(function () {
   $(".myportfolio").hover(
       function () {
@@ -32,7 +32,7 @@ $(document).ready(function () {
   );
 });
 
-//poup on submission
+//pop this up on submission
 $(document).ready(function () {
   document.getElementById("form").addEventListener("submit", popUp);
   function popUp() {
