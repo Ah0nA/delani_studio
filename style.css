@@ -1,4 +1,4 @@
-/* h1 { 
+h1 { 
   position: absolute; 
   top: 300px; 
   left: 0; 
@@ -72,28 +72,28 @@ color: white;
   font-family: cursive;
   font-size: 25px;
   color: rgb(70, 248, 239);
-  padding: 1rem;
+  padding: 2rem;
 }
 
-.portfolio1 {
-  padding-top: 9vh;
+.pym {
+  padding-top: 8vh;
 }
 
-.port-pro {
+.portflio8 {
 
   left: 48%;
   transform: translate(-50%, -80%);
   display: none;
   position: absolute;
-  padding: 5px;
+  padding: 7px;
   background-color: white;
   text-align: center;
-  top: 58%;
+  top: 60%;
 }
-.img1:hover {
+.tea:hover {
   opacity: 0.3;
 }
-.port-pro:hover {
+.portfolio8:hover {
   opacity: 1;
 }
 
@@ -120,7 +120,7 @@ background-color: transparent;
 }
 
 /* portfolio section */
-.port1 {
+.pym {
   padding-bottom: 5vh;
 }
 .find-me {
@@ -178,4 +178,4 @@ background-color: transparent;
     transform: translateY(-15px);
   }
 }
- */
+
