@@ -98,25 +98,25 @@ color: white;
 }
 
 /* start form styling */
-.myhead {
-  margin-top: 4vh;
+.hulk {
+  margin-top: 5vh;
 }
 #name,
 #email,
 #textarea {
 background-color: transparent;
 }
-.cont-sec {
+.reed {
   height: 90vh;
   width: 100%;
 }
-.cont-form {
+.maker {
   position: relative;
   left: 0;
   top: 0;
 }
-.submitme {
-  margin-bottom: 17vh;
+.submitstorm {
+  margin-bottom: 19vh;
 }
 
 /* portfolio section */
@@ -130,7 +130,7 @@ background-color: transparent;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
 }
-.cont-form > h3 {
+.maker > h3 {
   text-transform: uppercase;
   padding-top: 2vh;
 }
@@ -142,14 +142,15 @@ background-color: transparent;
 /* contact us section */
 .find-me {
   padding-top: 10vh;
+  background-size: cover;
 }
 .find-me > h3 {
   color: white;
 }
 .logo{
-  font-size: medium;
-  font-weight: 600;
-  font-style: oblique;
+  font-style: normal;
+  font-size: large;
+  font-weight: 700;
 }
 .footer-sec:hover {
   padding-top: 3vh;
