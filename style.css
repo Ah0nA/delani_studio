@@ -97,14 +97,14 @@ color: white;
   opacity: 1;
 }
 
-/* start form styling */
+
 .hulk {
   margin-top: 5vh;
 }
 #name,
 #email,
 #textarea {
-background-color: transparent;
+background-color: ghostwhite;
 }
 .reed {
   height: 90vh;
@@ -121,9 +121,9 @@ background-color: transparent;
 
 /* portfolio section */
 .pym {
-  padding-bottom: 5vh;
+  padding-bottom: 7vh;
 }
-.find-me {
+.drdoom {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -133,6 +133,9 @@ background-color: transparent;
 .maker > h3 {
   text-transform: uppercase;
   padding-top: 2vh;
+  background:url("./images/c_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .submitstorm {
   margin-top: 1rem;
@@ -140,14 +143,15 @@ background-color: transparent;
 }
 
 /* contact us section */
-.find-me {
+
+.drdoom {
   padding-top: 10vh;
-  background-size: cover;
+ 
 }
-.find-me > h3 {
+.drdoom > h3 {
   color: white;
 }
-.logo{
+.socials{
   font-style: normal;
   font-size: large;
   font-weight: 700;
@@ -157,26 +161,5 @@ background-color: transparent;
   height: 10vh;
 }
 
-/* keyframes */
-#anim{
-  animation: pulse 5s infinite;
-  padding-top: 2vh;
-  animation-duration: 2s;
-  animation-name: mymouse;
-}
-@keyframes mymouse {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
 
+  
