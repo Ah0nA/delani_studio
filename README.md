@@ -7,7 +7,7 @@ Delani studio  website remake
 #Author
  Amanda Ahona.
  email[amandaahona8@gmail.com]
- project[https://ah0na.github.io/delani_studio/]
+ project[ https://ah0na.github.io/delani_studio/]
 ## Installation
  Setting or remaking this website was the hardest thing i have done yet but it learnt quite a lot.
 
